@@ -5,21 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3935ab20-235d-42f9-885a-4a09ddb0fb06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/location/AdministrativeArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/location/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/location/Elevation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/location/GeoPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/location/Imperial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/location/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/location/Metric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/location/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/location/SupplementalAdminArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/location/TimeZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/spoonacular/ClassifyCuisineDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/spoonacular/IngredientSubstitutesDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/weather/DailyForecast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/weather/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/weather/Headline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/weather/Maximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/weather/Minimum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/weather/Night.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/weather/Temperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/accuaweaher/weather/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/accuaweather/AccuweatherAbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/accuaweather/GetLocationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/accuaweather/GetWeatherOneDayTest .java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spoonacular/ClassifyCuisineTestSpoonacular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spoonacular/IngredientSubstitutesTestSpoonacular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/spoonacular/SpoonacularAbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "olga252318"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/olga252318/DZ03.git",
+    "accountId": "cfc0b280-d9c6-4f0d-bca2-698cb5b870da"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
 }]]></component>
@@ -32,9 +74,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Lenovo/Desktop/oopDZ3/DZ3/src/main/java/org/example/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/Lenovo/Desktop/oopDZ3/DZ3/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -47,5 +93,16 @@
       <updated>1714673032764</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
