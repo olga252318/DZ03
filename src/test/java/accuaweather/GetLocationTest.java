@@ -1,7 +1,10 @@
 package accuaweather;
 
+import io.qameta.allure.*;
+import jdk.jfr.Description;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import accuaweaher.location.Location;
 
@@ -12,6 +15,12 @@ import static io.restassured.RestAssured.given;
 public class GetLocationTest extends AccuweatherAbstractTest{
 
     @Test
+    @DisplayName("GetLocationTest")
+    @Description("Комментарий к тесту GetLocationTest")
+    @Link(" ")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Поцелуенок Ольга")
+    @Story(value = "Тестирование метода")
     void getLocation_search_returnMoscow() {
 
         List<Location> response = given()

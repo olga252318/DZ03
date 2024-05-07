@@ -1,8 +1,11 @@
 package spoonacular;
 
 import accuaweaher.spoonacular.ClassifyCuisineDTO;
+import io.qameta.allure.*;
+import jdk.jfr.Description;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
@@ -12,6 +15,12 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class ClassifyCuisineTestSpoonacular extends SpoonacularAbstractTest{
 
     @Test
+    @DisplayName("ClassifyCuisineTestSpoonacular")
+    @Description("Комментарий к тесту ClassifyCuisineTestSpoonacular")
+    @Link(" ")
+    @Severity(SeverityLevel.MINOR)
+    @Owner("Поцелуенок Ольга")
+    @Story(value = "Тестирование метода")
 
     void postClassifyCuisine_whenValid_shouldReturn() {
         ClassifyCuisineDTO response = given()
